@@ -28,7 +28,12 @@ composer --version
    cd PlaywrightPHP
    ```
 
-2. Instale os navegadores gerenciados pelo Playwright:
+2. Instalar dependências do playwright (/vendor)
+   ```bash
+   composer require --dev playwright-php/playwright
+   ```
+
+3. Instale os navegadores gerenciados pelo Playwright:
 
 - **Para instalar apenas o Chromium (recomendado para começar):**
   ```bash
